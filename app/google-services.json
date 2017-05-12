@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "858571498587",
+    "firebase_url": "https://modoobeel.firebaseio.com",
+    "project_id": "modoobeel",
+    "storage_bucket": "modoobeel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858571498587:android:b165f7f360cf9b7d",
+        "android_client_info": {
+          "package_name": "com.modoobel.modoobell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858571498587-8o07fib5l1l28d75cvnfrkhmvo3guq6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaSD-IhnmL_VjVt1TpEOXEW0gkquaQge8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

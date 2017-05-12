@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.modoobel.modoobell.DialogActivity">
+
+    <RelativeLayout
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/pager_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        >
+
+        <RelativeLayout
+            android:id="@+id/video_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+
+            <RelativeLayout
+                android:id="@+id/input_voice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:onClick="clkStartSTT"
+                android:background="@drawable/input_voice_ani"
+                >
+
+                <ImageView
+                    android:id="@+id/input_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/microphone"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="18dp"
+                    />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="@string/purpose_visit"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:textColor="@color/colorTextPrimary"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+
+                />
+
+        </RelativeLayout>
+        
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list_view"
+            android:layout_above="@+id/input_btn_set"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+        <com.modoobel.modoobell.custom_obj.InputButtonSet
+            android:id="@+id/input_btn_set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

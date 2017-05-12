@@ -1,0 +1,129 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="32dp"
+    android:paddingRight="32dp"
+    tools:context="com.modoobel.modoobell.fragment.BellMainFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+
+        >
+
+        <com.modoobel.modoobell.custom_obj.BellMainButton
+            android:id="@+id/btn_bell_main_0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:clickable="true"
+            android:theme="@style/ButtonBellMain"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="@dimen/bell_main_button_icon_size"
+            android:layout_gravity="center_vertical"
+            android:background="@color/colorDivider"
+            />
+
+        <com.modoobel.modoobell.custom_obj.BellMainButton
+            android:id="@+id/btn_bell_main_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:clickable="true"
+            android:theme="@style/ButtonBellMain"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="@dimen/bell_main_button_icon_size"
+            android:layout_gravity="center_vertical"
+            android:background="@color/colorDivider"
+            />
+
+        <com.modoobel.modoobell.custom_obj.BellMainButton
+            android:id="@+id/btn_bell_main_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:clickable="true"
+            android:theme="@style/ButtonBellMain"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+
+        <com.modoobel.modoobell.custom_obj.BellMainButton
+            android:id="@+id/btn_bell_main_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:clickable="true"
+            android:theme="@style/ButtonBellMain"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="@dimen/bell_main_button_icon_size"
+            android:layout_gravity="center_vertical"
+            android:background="@color/colorDivider"
+            />
+
+        <com.modoobel.modoobell.custom_obj.BellMainButton
+            android:id="@+id/btn_bell_main_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:clickable="true"
+            android:theme="@style/ButtonBellMain"
+            android:background="?attr/selectableItemBackgroundBorderless"
+
+            />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="@dimen/bell_main_button_icon_size"
+            android:layout_gravity="center_vertical"
+            android:background="@color/colorDivider"
+            />
+
+        <com.modoobel.modoobell.custom_obj.BellMainButton
+            android:id="@+id/btn_bell_main_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:clickable="true"
+            android:theme="@style/ButtonBellMain"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Modoobell</string>
+    <string name="purpose_visit_title">방문목적</string>
+    <string name="purpose_visit">방문 목적을 선택하세요.</string>
+    <string name="welcome">안녕하세요. 모두벨 입니다.\n방문목적을 선택 하세요.</string>
+    <string name="input_direct">직접입력</string>
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+    <string name="close_dialog">대화를 종료 합니다.</string>
+    <string name="close_dialog_from_opp">상대가 대화를 종료 하였습니다.</string>
+    <string name="wait_plz">잠시만 기다려 주세요.</string>
+    <string name="reg_fail">기기등록에 실패 하였습니다. 다시 시도해 주세요.</string>
+    <string name="reg_ok">기기가 등록 되었습니다.</string>
+    <string name="no_reg_device">등록된 기기가 없습니다.</string>
+    <string name="input_passcode_title">비밀번호</string>
+    <string name="input_passcode_content">비밀번호를 입력 해 주세요.\n초기 비밀번호는 0000입니다.</string>
+    <string name="modify_passcode_content">새로운 비밀번호를 입력 해 주세요.</string>
+    <string name="wrong_passcode">비밀번호가 일치하지 않습니다.</string>
+    <string name="one_more_passcode">비밀번호를 한번 더 입력 해 주세요.</string>
+    <string name="complete_modify_passcode">비밀번호 변경이 완료 되었습니다.</string>
+    <string name="delete_button_title">삭제</string>
+
+    <string name="close_comm">대화종료</string>
+
+    <string name="menu_pass">비밀번호관리</string>
+    <string name="menu_history">방문기록</string>
+    <string name="menu_add_device">기기등록</string>
+    <string name="menu_manage_device">기기관리</string>
+
+    <string name="menu_notice">알림</string>
+    <string name="menu_auto_response">자동응대</string>
+
+
+
+    <string name="visitor_today">오늘</string>
+    <string name="visitor_week">일주일</string>
+    <string name="visitor_month">한달</string>
+    <string name="visitor_year">일년</string>
+
+    <!--메인메뉴 방문목적 버튼 텍스트-->
+
+    <string name="delivery">배 달</string>
+    <string name="parcel">택 배</string>
+    <string name="reservation">예 약</string>
+    <string name="friends">지 인</string>
+    <string name="edu">교 육</string>
+    <string name="more">더보기</string>
+    <string name="check">점 검</string>
+    <string name="religion">종 교</string>
+    <string name="promotion">홍 보</string>
+    <string name="research">조 사</string>
+    <string name="sale">판 매</string>
+
+
+    <!--런쳐-->
+
+    <string name="main_btn_title_mic">마이크</string>
+    <string name="main_btn_title_speaker">스피커</string>
+    <string name="main_btn_title_response">응대모드</string>
+    <string name="response_btn_title_more">+\n더보기</string>
+
+    <string name="add_device_title">기기 등록</string>
+    <string name="add_device_content">QR코드로 기기를 등록 해 주세요.</string>
+
+
+    <string name="parcel_msg1_msg">택배입니다</string>
+    <string name="parcel_msg2_msg">선불입니까?</string>
+    <string name="parcel_msg3_msg">착불입니까?</string>
+    <string name="parcel_msg4_msg">사인이 필요 합니까?</string>
+    <string name="parcel_msg5_msg">선불입니다.</string>
+    <string name="parcel_msg6_msg">착불입니다.</string>
+    <string name="parcel_msg7_msg">사인이 필요 합니다.</string>
+    <string name="parcel_msg8_msg">문앞에 놓아 주세요.</string>
+    <string name="parcel_msg9_msg">부재 중 입니다. 경비실에 놓아 주세요.</string>
+    <string name="parcel_msg10_msg">잠시만 기다려 주세요.</string>
+
+    <string name="parcel_msg1_msg_short">택배</string>
+    <string name="parcel_msg2_msg_short">선불택배</string>
+    <string name="parcel_msg3_msg_short">착불택배</string>
+    <string name="parcel_msg4_msg_short">사인필요</string>
+    <string name="parcel_msg5_msg_short">선불택배</string>
+    <string name="parcel_msg6_msg_short">착불택배</string>
+    <string name="parcel_msg7_msg_short">사인필요</string>
+    <string name="parcel_msg8_msg_short">문앞</string>
+    <string name="parcel_msg9_msg_short">경비실</string>
+    <string name="parcel_msg10_msg_short">방문자\n확인</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f2c800</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#f76d43</color>
+    <color name="input_direct_button_bg">#111111</color>
+
+    <color name="colorTextPrimary">#333333</color>
+    <color name="colorBackground">#f9f9f9</color>
+    <color name="colorDivider">#bbbbbb</color>
+    <color name="indicator_selected">#9192a4</color>
+    <color name="indicator_unselected">#bbbbbb</color>
+    <color name="color_btn_more_bg">#666666</color>
+
+    <color name="color_func_btn_set_bg">#cccccc</color>
+    <color name="color_func_btn_bg_not_selected">#9a9a9a</color>
+    <color name="color_func_btn_bg_selected">#555555</color>
+    <color name="color_func_btn_title">#ffffff</color>
+    <color name="color_func_btn_option_not_selected">#777777</color>
+    <color name="color_func_btn_option_selected">#ff6934</color>
+
+    <color name="color_bubble_me_text_launcher">#333333</color>
+    <color name="color_bubble_opp_text_launcher">#ffffff</color>
+    <color name="color_bubble_me_text_bell">#333333</color>
+
+    <color name="color_red_button">#DC676C</color>
+
+
+    <color name="color_alert_title">#000000</color>
+    <color name="color_alert_message">#555555</color>
+    <color name="color_alert_message_bg">#eeeeee</color>
+    <color name="color_alert_button_bg">#ffffff</color>
+    <color name="color_alert_button_ok">#000000</color>
+    <color name="color_alert_button_cancel">#777777</color>
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/color_func_btn_set_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_input"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/activity_margin_half"
+            android:background="@android:color/white"
+            android:layout_toLeftOf="@+id/btn_ok"
+            />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:minWidth="64dp"
+            android:text="보내기"
+            android:theme="@style/ButtonInputDirect"
+            android:elevation="0dp"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_margin_half"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager_layout"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/input_button_height"
+            android:layout_toLeftOf="@+id/btn_more"
+            >
+
+
+        </android.support.v4.view.ViewPager>
+
+        <ImageButton
+            android:id="@+id/btn_more"
+            android:layout_alignParentRight="true"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/btn_circle"
+            android:background="@drawable/float_button_1_01"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

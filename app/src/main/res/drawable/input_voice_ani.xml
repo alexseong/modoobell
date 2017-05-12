@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item android:drawable="@drawable/microphone_in_wave01" android:duration="100" />
+    <item android:drawable="@drawable/microphone_in_wave02" android:duration="100" />
+    <item android:drawable="@drawable/microphone_in_wave03" android:duration="100" />
+    <item android:drawable="@drawable/microphone_in_wave04" android:duration="100" />
+    <item android:drawable="@drawable/microphone_in_wave05" android:duration="100" />
+    <item android:drawable="@drawable/microphone_in_wave06" android:duration="100" />
+
+</animation-list>

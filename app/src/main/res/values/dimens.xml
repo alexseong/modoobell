@@ -1,0 +1,24 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_margin_half">8dp</dimen>
+    <dimen name="bell_main_button_icon_size">38dp</dimen>
+    <dimen name="add_device_text_min_height">36dp</dimen>
+    <dimen name="time_textview_min_width">40dp</dimen>
+    <dimen name="input_button_height">48dp</dimen>
+    <dimen name="visitor_face_size">40dp</dimen>
+
+    <!--런쳐-->
+
+    <dimen name="func_btn_margin">8dp</dimen>
+    <dimen name="func_btn_main_margin">8dp</dimen>
+    <dimen name="func_btn_to_btn_margin">4dp</dimen>
+    <dimen name="profile_image_size">40dp</dimen>
+    <dimen name="dialog_me_left_margin">64dp</dimen>
+    <dimen name="input_btn_size">43dp</dimen>
+    <dimen name="button_min_width">64dp</dimen>
+
+    <dimen name="list_cell_height">72dp</dimen>
+
+</resources>

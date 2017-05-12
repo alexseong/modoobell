@@ -1,0 +1,313 @@
+{
+    "delivery": {
+        "order": 0,
+        "id": "delivery",
+        "name": "배달",
+        "auto_response": "죄송합니다. 나중에 다시 와주세요",
+        "icon": "icon_main01",
+        "msg_data": {
+            "msg1": {
+                "msg": "배달입니다.",
+                "msg_short": "배달",
+                "response_msg": [
+                    "msg2",
+                    "msg3",
+                    "msg4"
+                ]
+            },
+            "msg2": {
+                "msg": "음식 배달입니까?",
+                "msg_short": "음식배달",
+                "response_msg": [
+                    "msg5",
+                    "msg6",
+                    "msg7"
+                ]
+            },
+            "msg3": {
+                "msg": "마트 배달입니까?",
+                "msg_short": "마트배달",
+                "response_msg": [
+                    "msg5",
+                    "msg6",
+                    "msg7"
+                ]
+            },
+            "msg4": {
+                "msg": "기타배달?",
+                "msg_short": "기타배달",
+                "response_msg": [
+                    "msg5",
+                    "msg6",
+                    "msg7"
+                ]
+            },
+            "msg5": {
+                "msg": "음식배달입니다.",
+                "msg_short": "음식배달",
+                "response_msg": [
+                    "msg8",
+                    "msg9",
+                    "msg10"
+                ]
+            },
+            "msg6": {
+                "msg": "마트 배달입니다.",
+                "msg_short": "마트배달",
+                "response_msg": [
+                    "msg10"
+                ]
+            },
+            "msg7": {
+                "msg": "기타 배달입니다.",
+                "msg_short": "기타배달",
+                "response_msg": [
+                    "msg10"
+                ]
+            },
+            "msg8": {
+                "msg": "문앞에 놓아 주세요.",
+                "msg_short": "문앞"
+            },
+            "msg9": {
+                "msg": "부재 중 입니다. 경비실에 놓아 주세요.",
+                "msg_short": "경비실"
+            },
+            "msg10": {
+                "msg": "잠시만 기다려 주세요.",
+                "msg_short": "방문자 확인"
+            }
+        }
+    },
+    "parcel": {
+        "order": 1,
+        "id": "parcel",
+        "name": "택배",
+        "auto_response": "경비실에 놓아 주세요!",
+        "icon": "icon_main02",
+        "msg_data": {
+            "msg1": {
+                "msg": "택배입니다.",
+                "msg_short": "택배",
+                "response_msg": [
+                    "msg2",
+                    "msg3",
+                    "msg4"
+                ]
+            },
+            "msg2": {
+                "msg": "선불입니까?",
+                "msg_short": "선불택배",
+                "response_msg": [
+                    "msg5",
+                    "msg6",
+                    "msg7"
+                ]
+            },
+            "msg3": {
+                "msg": "착불입니까?",
+                "msg_short": "착불택배",
+                "response_msg": [
+                    "msg5",
+                    "msg6",
+                    "msg7"
+                ]
+            },
+            "msg4": {
+                "msg": "사인이 필요 합니까?",
+                "msg_short": "사인필요",
+                "response_msg": [
+                    "msg5",
+                    "msg6",
+                    "msg7"
+                ]
+            },
+            "msg5": {
+                "msg": "선불입니다.",
+                "msg_short": "선불택배",
+                "response_msg": [
+                    "msg8",
+                    "msg9",
+                    "msg10"
+                ]
+            },
+            "msg6": {
+                "msg": "착불입니다.",
+                "msg_short": "착불택배",
+                "response_msg": [
+                    "msg10"
+                ]
+            },
+            "msg7": {
+                "msg": "사인이 필요 합니다.",
+                "msg_short": "사인필요",
+                "response_msg": [
+                    "msg10"
+                ]
+            },
+            "msg8": {
+                "msg": "문앞에 놓아 주세요.",
+                "msg_short": "문앞"
+            },
+            "msg9": {
+                "msg": "부재 중 입니다. 경비실에 놓아 주세요.",
+                "msg_short": "경비실"
+            },
+            "msg10": {
+                "msg": "잠시만 기다려 주세요.",
+                "msg_short": "방문자 확인"
+            }
+        }
+    },
+    "reservation": {
+        "order": 2,
+        "id": "reservation",
+        "name": "예약",
+        "auto_response": "잠시 외출중입니다. 다음에 방문 부탁합니다.",
+        "icon": "icon_main03",
+        "msg_data": {
+            "msg1": {
+                "msg": "방문입니다.",
+                "msg_short": "방문",
+                "response_msg": [
+                    "msg2",
+                    "msg3",
+                    "msg4"
+                ]
+            },
+            "msg2": {
+                "msg": "어떤 예약입니까?",
+                "msg_short": "예약종류",
+                "response_msg": [
+                    "msg5",
+                    "msg6",
+                    "msg7"
+                ]
+            },
+            "msg3": {
+                "msg": "A/S예약입니까?",
+                "msg_short": "A/S예약",
+                "response_msg": [
+                    "msg5",
+                    "msg6",
+                    "msg7"
+                ]
+            },
+            "msg4": {
+                "msg": "설치예약입니까?",
+                "msg_short": "설치예약",
+                "response_msg": [
+                    "msg5",
+                    "msg6",
+                    "msg7"
+                ]
+            },
+             "msg5": {
+                "msg": "상담예약입니까?.",
+                "msg_short": "상담예약",
+                "response_msg": [
+                    "msg8",
+                    "msg9",
+                    "msg10"
+                ]
+            },
+            "msg6": {
+                "msg": "A/S예약입니다.",
+                "msg_short": "A/S예약",
+                "response_msg": [
+                    "msg10"
+                ]
+            },
+            "msg7": {
+                "msg": "설치예약입니다.",
+                "msg_short": "설치예약",
+                "response_msg": [
+                    "msg10"
+                ]
+            },
+            "msg8": {
+                "msg": "문앞에 놓아 주세요.",
+                "msg_short": "문앞"
+            },
+            "msg9": {
+                "msg": "부재 중 입니다. 경비실에 놓아 주세요.",
+                "msg_short": "경비실"
+            },
+            "msg10": {
+                "msg": "잠시만 기다려 주세요.",
+                "msg_short": "방문자 확인"
+            }
+        }
+    },
+    "friends": {
+        "order": 3,
+        "id": "friends",
+        "name": "지인",
+        "auto_response": "",
+        "icon": "icon_main04",
+        "msg_data": {}
+    },
+    "edu": {
+        "order": 4,
+        "id": "edu",
+        "name": "교육",
+        "auto_response": "",
+        "icon": "icon_main05",
+        "msg_data": {}
+    },
+    "more": {
+        "order": 5,
+        "id": "more",
+        "name": "더보기",
+        "icon": "icon_main06",
+        "msg_data": {}
+    },
+    "check": {
+        "order": 6,
+        "id": "check",
+        "name": "점검",
+        "auto_response": "",
+        "icon": "icon_main07",
+        "msg_data": {}
+    },
+    "religion": {
+        "order": 7,
+        "id": "religion",
+        "name": "종교",
+        "auto_response": "",
+        "icon": "icon_main08",
+        "msg_data": {}
+    },
+    "promotion": {
+        "order": 8,
+        "id": "promotion",
+        "name": "홍보",
+        "auto_response": "",
+        "icon": "icon_main09",
+        "msg_data": {}
+    },
+    "research": {
+        "order": 9,
+        "id": "research",
+        "name": "조사",
+        "auto_response": "",
+        "icon": "icon_main10",
+        "msg_data": {}
+    },
+    "sale": {
+        "order": 10,
+        "id": "sale",
+        "name": "판매",
+        "auto_response": "",
+        "icon": "icon_main11",
+        "msg_data": {}
+    },
+    "more2": {
+        "order": 11,
+        "id": "more",
+        "name": "더보기",
+        "auto_response": "",
+        "icon": "icon_main06",
+        "msg_data": {}
+    }
+}
